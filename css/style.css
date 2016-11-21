@@ -1,11 +1,11 @@
 html, body {
 	height: 100%;
+	min-height: 100%;
 	width: 100%;
 	overflow-x: hidden;
 	overflow: visible;
 	position: relative;
 	min-width: 340px;
-	min-height: 100%;
 	font-size: 16px;
 }
 
@@ -72,6 +72,10 @@ header{
 }
 
 @media (min-width:480px){
+header{
+	min-height: 100%;
+}
+
 .skills{
 	font-weight: 300;
 	font-size: 1.65em;
@@ -84,6 +88,10 @@ header{
 }
 
 @media (min-width: 768px){
+header{
+	min-height: 100%;
+}
+
 .name {
     display: block;
     font-weight: 700;
