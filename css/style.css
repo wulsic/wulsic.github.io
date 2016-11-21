@@ -136,10 +136,6 @@ section {
 	padding: 100px 0;
 }
 
-aside {
-	padding: 50px 0;
-}
-
 .section-heading {
 	margin-top: 0;
 }
@@ -148,8 +144,6 @@ aside {
 	height: 64px;
 	width: 64px;
 }
-
-
 
 input{
 	margin-bottom: 20px;
